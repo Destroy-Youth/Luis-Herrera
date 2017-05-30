@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package luis_herrera;
+package Aplicacion_Imc;
 
 /**
  *
@@ -12,7 +12,7 @@ package luis_herrera;
 public class Imc {
     public float calcular(Usuario u){
        // Lógica del calculo
-      float resultado=u.getPeso()/(u.getAltura()*u.getAltura();
+       float resultado=u.getPeso()/(u.getAltura()*u.getAltura());
        
        return resultado;
         

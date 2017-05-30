@@ -3,29 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package luis_herrera;
+package Aplicacion_Imc;
 
 /**
  *
  * @author T-
  */
 public class Usuario {
+
     private float peso;
     private float altura;
 
-    public void setPeso(float peso){
-        this.peso=peso;
-    }
-
-    public void setAltura(float altura){
-        this.altura=altura;
-    }
-    
-    public float getPeso(){
+    public float getPeso() {
         return peso;
     }
-    
-    public float getAltura(){
+
+    public float getAltura() {
         return altura;
     }
+
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+
+    public void setAltura(float altura) {
+        this.altura = altura;
+    }
+
+
 }
