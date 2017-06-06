@@ -12,7 +12,7 @@ package luis_herrera;
 public class Imc {
     public float calcular(Usuario u){
        // Lógica del calculo
-      float resultado=u.getPeso()/(u.getAltura()*u.getAltura();
+      float resultado=u.getPeso()/(u.getAltura()*u.getAltura());
        
        return resultado;
         

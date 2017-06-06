@@ -116,8 +116,8 @@ public class Aplicacion extends javax.swing.JFrame {
         etiquetaResultado.setText("Resultado: "+fAltura);
                 
         Usuario u =new Usuario();
-        u.altura=fAltura;
-        u.peso=fPeso;
+        u.getAltura()=fAltura;
+        u.getPeso()=fPeso;
         
         //Generamos modelo
         Imc imc=new Imc();

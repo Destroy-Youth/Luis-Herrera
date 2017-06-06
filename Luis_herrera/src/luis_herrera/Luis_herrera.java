@@ -28,7 +28,7 @@ public class Luis_herrera {
         Usuario u=new Usuario();
         
         //asignamos valores
-        u.altura=1.365f;
+        u.=1.365f;
         u.peso=73f;
         
         //Generamos modelo
