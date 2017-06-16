@@ -28,8 +28,8 @@ public class Luis_herrera {
         Usuario u=new Usuario();
         
         //asignamos valores
-        u.=1.365f;
-        u.peso=73f;
+        u.setAltura(1.365f);
+        u.setPeso(73f);
         
         //Generamos modelo
         Imc imc=new Imc();

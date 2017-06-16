@@ -13,11 +13,13 @@ public class Usuario {
     private float peso;
     private float altura;
 
-    public void setPeso(float peso){
+    public void setPeso(float peso)throws NumeroNoNegativoException{
+        ValidacionUsuario.validarNoNegativo(peso);
         this.peso=peso;
     }
 
-    public void setAltura(float altura){
+    public void setAltura(float altura)throws NumeroNoNegativoException{
+        ValidacionUsuario.validarNoNegativo(altura);
         this.altura=altura;
     }
     
